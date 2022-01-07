@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Basalt</title>
+    <link href="styles.css" rel="stylesheet" />
+
+    <script src="scripts/tabforindent.js"></script>
+
+</head>
+
+<body>
+    <div class="allcontent">
+
+        <nav class="navbar">
+            <a class="navbar-logoandtitle" href="index.html">
+                <img class="navlogo" src="images/BasaltLogo_64x64.png" />
+                <h1 class="navtitle">Basalt</h1>
+            </a>
+
+            <div class="navbar-pagelinks">
+                <ul>
+                    <li> <a href="about.html">About</a> </li>
+                    <li> <a href="tutorial.html">Tutorial</a> </li>
+                    <li> <a href="examples.html">Examples</a> </li>
+                    <li> <a href="tryitout.html" class="selectedpage">Try It Out</a> </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="maindiv">
+            <h2>Try It Out:</h2>
+            <textarea class="codetextarea" onkeydown="whenKeyPressed(this, event);" spellcheck="false">testCode</textarea>
+            <div class="run">
+                <button>Run</button>
+                <textarea readonly spellcheck="false">Testline</textarea>
+            </div>
+        </div>
+
+    </div>
+
+</body>
